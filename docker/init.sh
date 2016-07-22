@@ -25,6 +25,7 @@ case $@ in
         docker rm -f bahmni-lab
         docker rm -f mysql
         docker rm -f pgsql
+        exit 0
         ;;
 
     install)
